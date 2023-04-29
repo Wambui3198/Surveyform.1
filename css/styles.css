@@ -1,0 +1,17 @@
+body {
+  background-color: #438dd6;
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+h1,
+p {
+  text-align: center;
+}
+p {
+  font-style: italic;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}

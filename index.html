@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Suvey Form</title>
+		<link rel="stylesheet" href="styles.css"/>
+		
+  </head>
+  <body><style>
+  body {
+  background: linear-gradient(45deg, green, yellow, purple);
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+  </style>
+    <h1 id="title">
+      <style>
+        h1 {
+  text-align: center;
+}</style>
+      CHANKA SURVEY FORM</h1>
+    <p id="description">
+      <style>
+        p {
+  font-style: italic;
+  text-align: center;
+}
+}
+        </style>
+      Thank you for taking time in helping us improve our platform</p>
+    <form id="survey-form" method="get" action="htpps://www.subitsurveyform.com">
+      <fieldset>
+        <label id="name-label" for="first-name">First Name<input id="name" type="text" name="first-name" placeholder="Jane" required/>
+        <style>label {
+            display: block;
+            margin: 0.5rem 0;
+          }</style></label>
+        <label for="last-name">Last Name<input id="last-name" name="last-name" type="text" placeholder="Doe" required/>
+        </label>
+        <label id="email-label" for="email">Email Address<input id="email" name="email" type="email" placeholder="janedoe@gmail.com" required/>
+        </label>
+        <label id="number-label" for="number">Please input your age<input id="number" type="number" min="10" max="100" placeholder="23" required/>
+        </label>
+       </fieldset>
+       <fieldset>
+         <label for="review">Were you satisfied with our products and services?<select id="dropdown" name="dropdown">
+          <option value="">(Select one)</option>
+          <option value="1">YES</option>
+          <option value-"2">NO</option>
+          <option value="3">NEEDS SOME IMPROVING</option>
+         </select>
+       </fieldset>
+       <fieldset>
+         <label for="bales">What products should we major on?
+         </label>
+         <label for="chiffon"><input id="chiffon" type="radio" name="bale-option" value="chiffon" />Chiffon tops</label>
+         <label for="trouser"><input id="trousers" type="radio" name="bale-option" value="trouser" />Official trousers</label>
+         <label for="wide"><input id="wide" type="radio" name="bale-option" value="wide" />Wide pants</label>
+       </fieldset>
+       <fieldset>
+         <label for="policy">All information provided is confidential and will be used for official use only. Please read our terms and conditions before submitting the form.</label>
+         <label for="terms">I have read the terms and conditions<input id="terms" name="terms" type="checkbox" value="terms" required/></label>
+         <label for="info">I agree that my information should only be used for official purposes<input id="info" value="info" name="info" type="checkbox" required/></label>  </fieldset>
+        <fieldset>
+          <label for="add">Any suggestions are welcome for the betterment of our products and services.<textarea id="add" name="add" rows="5" cols="50" placeholder="You can bring...">
+            </textarea>
+        </fieldset>
+      <input id="submit" type="submit"/>
+    </form>
+
+  </body>
+</hmtl>
